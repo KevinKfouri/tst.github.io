@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="nav-link"><a class="active" href="#HOME">HOME</a></div>
+        <div class="nav-link"><a href="#BAND">BAND</a></div>
+        <div class="nav-link"><a href="#TOUR">TOUR</a></div>
+        <div class="nav-link"><a href="#CONTACT">CONTACT</a></div>
+        <div class="dropdown">
+          <div class="nav-link">
+            <a href="#" class="dropbtn"
+              >MORE <i class="bi bi-caret-down-fill"></i
+            ></a>
+          </div>
+          <div class="dropdown-content">
+            <a href="#">Merchandise</a>
+            <a href="#">Extras</a>
+            <a href="#">Media</a>
+          </div>
+        </div>
+      </div>
+      <div class="search">
+        <i class="bi bi-search"></i>
+      </div>
+      <div class="mobile">
+        <div class="droptest">
+          <div class="line1"></div>
+          <div class="line1"></div>
+          <div class="line1"></div>
+        </div>
+        <div class="drop">
+          <a href="#HOME">HOME</a>
+          <a href="#BAND">BAND</a>
+          <a href="#TOUR">TOUR</a>
+          <a href="#CONTACT">CONTACT</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="start" id="HOME">
+        <img src="img/template1.jpg" alt="" />
+        <h2 class="text_one">New York</h2>
+        <h4 class="text_two">thank you for the best hype ever</h4>
+      </div>
+      <br /><br />
+      <div class="band" id="BAND">
+        <h1>The Band</h1>
+        <h5>We love music</h5>
+        <p>
+          We have created a fictional band website. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod<br />
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco<br />
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+          in reprehenderit in voluptate velit esse cillum<br />
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit<br />
+          anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut<br />
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="div1">
+          <h6>
+            Name <br /><br />
+            <img src="img/template1_profile.jpg" alt="" />
+          </h6>
+        </div>
+        <div class="div2">
+          <h6>
+            Name <br /><br />
+            <img src="img/template1_profile.jpg" alt="" />
+          </h6>
+        </div>
+        <div class="div3">
+          <h6>
+            Name <br /><br />
+            <img src="img/template1_profile.jpg" alt="" />
+          </h6>
+        </div>
+      </div>
+      <br /><br />
+      <div class="tour" id="TOUR">
+        <br /><br />
+        <h1>TOUR DATES</h1>
+        <h5>Remember to book your tickets!</h5>
+        <div class="date">
+          <ul>
+            <li>
+              September
+              <p>Sold Out</p>
+            </li>
+            <li>
+              October
+              <p>Sold Out</p>
+            </li>
+            <li style="border-bottom: none; margin-top: 5px;">
+              November <b>3</b>
+            </li>
+          </ul>
+        </div>
+        <div class="ny">
+          <img src="img/template1_tickets.jpg" alt="" />
+          <h4>New York</h4>
+          <h3>Fri 27 Nov 2016</h3>
+          <p>
+            Praesent tincidunt sed tellus ut<br />
+            rutrum sed vitae justo.
+          </p>
+          <button onclick="myfunction()">Buy tickets</button>
+        </div>
+        <div class="ny">
+          <img src="img/template1_tickets2.jpg" alt="" />
+          <h4>Paris</h4>
+          <h3>Fri 28 Nov 2016</h3>
+          <p>
+            Praesent tincidunt sed tellus ut<br />
+            rutrum sed vitae justo.
+          </p>
+          <button onclick="myfunction()">Buy tickets</button>
+        </div>
+        <div class="ny">
+          <img src="img/template1_tickets3.jpg" alt="" />
+          <h4>San Francisco</h4>
+          <h3>Fri 29 Nov 2016</h3>
+          <p>
+            Praesent tincidunt sed tellus ut<br />
+            rutrum sed vitae justo.
+          </p>
+          <button onclick="myfunction()">Buy tickets</button>
+        </div>
+        <br /><br /><br />
+      </div>
+      <br /><br />
+      <div class="contact" id="CONTACT">
+        <h1>CONTACT</h1>
+        <h5>Fan? Drop a note!</h5>
+        <br />
+        <div class="info">
+          <i class="bi bi-geo-alt-fill"></i> &nbsp; Chicago, US
+          <br />
+          <i class="bi bi-telephone-fill"></i> &nbsp; Phone: +00 151515
+          <br />
+          <i class="bi bi-envelope-fill"></i> &nbsp; Email: mail@mail.com
+        </div>
+        <div class="form">
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <br />
+            <input type="text" class="message" placeholder="Message" />
+            <br />
+            <button class="btn">SEND</button>
+          </form>
+        </div>
+      </div>
+      <br /><br />
+      <div class="map">
+        <img src="img/template_map.jpg" alt="" />
+      </div>
+      <br /><br />
+      <footer>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-snapchat"></i>
+        <i class="bi bi-pinterest"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-linkedin"></i>
+        <br />
+        <p>Powered by <a href="#">Kamex.test</a></p>
+      </footer>
+    </main>
+    <script>
+      function myfunction() {
+        alert("test i don't know");
+      }
+    </script>
+  </body>
+</html>
